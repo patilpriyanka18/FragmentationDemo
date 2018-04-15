@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void loadFragment(RedFragment fragment) {
         FragmentManager manager=getSupportFragmentManager();
-        FragmentTransaction trans=manager.beginTransaction();
-        trans.replace(R.id.framecolor,fragment);
-        trans.commit();
+        FragmentTransaction tran=manager.beginTransaction();
+        tran.replace(R.id.framecolor,fragment);
+        tran.commit();
     }
 }

@@ -23,6 +23,7 @@ public class RedFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        //Inflate
         return inflater.inflate(R.layout.fragment_red, container, false);
     }
 
