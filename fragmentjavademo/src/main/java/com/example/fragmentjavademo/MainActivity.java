@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentManager manager=getSupportFragmentManager();
         FragmentTransaction trans=manager.beginTransaction();
         trans.replace(R.id.framecolor,fragment);
+        //
         trans.commit();
     }
 

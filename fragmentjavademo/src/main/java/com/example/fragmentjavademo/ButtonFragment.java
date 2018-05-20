@@ -23,10 +23,10 @@ public class ButtonFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        final View view1 = inflater.inflate(R.layout.fragment_button, container, false);
-        view1.findViewById(R.id.btnRed).setOnClickListener(v -> ((MainActivity) getActivity()).loadFragment(new RedFragment()));
-        view1.findViewById(R.id.btnGreen).setOnClickListener(v -> ((MainActivity) getActivity()).loadFragment(new GreenFragment()));
-        return view1;
+        final View view = inflater.inflate(R.layout.fragment_button, container, false);
+        view.findViewById(R.id.btnRed).setOnClickListener(v -> ((MainActivity) getActivity()).loadFragment(new RedFragment()));
+        view.findViewById(R.id.btnGreen).setOnClickListener(v -> ((MainActivity) getActivity()).loadFragment(new GreenFragment()));
+        return view;
     }
 
 }
